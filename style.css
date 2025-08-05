@@ -5,7 +5,7 @@
   font-family: "Roboto", "Poppins";
 }
 
-body{
+body {
   background-color: #ffffff;
   width: 100%;
 }
@@ -119,7 +119,8 @@ main .hero .hero-section .button button:last-child:hover {
 
 /* main p style  */
 main .hero .hero-section p,
-.items .item p, .mac p {
+.items .item p,
+.mac p {
   width: 20%;
   margin: auto;
   font-size: 1.3rem;
@@ -179,7 +180,6 @@ main .massages .massage button:hover {
   color: white;
   background-color: #0071e3;
 }
-
 
 /* main mac section style  */
 
@@ -246,7 +246,7 @@ main .last .items {
   padding: 10px;
 }
 
-main .last .items .item{
+main .last .items .item {
   height: 100%;
   width: 100%;
 }
@@ -377,22 +377,20 @@ main .scroll {
   margin-bottom: 5vh;
 }
 
-main .scroll-item{
+main .scroll-item {
   height: 100%;
   width: 75%;
   color: #f5f5f7;
-position: relative;
+  position: relative;
   display: inline-flex;
   justify-content: start;
   align-items: end;
   padding-bottom: 5vh;
   margin: 10px 0 10px 10px;
   border-radius: 10px;
-
-
 }
 
-main .scroll-item button{
+main .scroll-item button {
   margin: 0 2% 0 10%;
   padding: 10px 18px;
   background-color: #f5f5f7;
@@ -400,17 +398,17 @@ main .scroll-item button{
   border: none;
   outline: none;
 }
-main .scroll-item button:hover{
+main .scroll-item button:hover {
   background-color: white;
 }
-main .scroll-item h3{
-    font-size: 1.4rem;
-    font-weight: 450;
-    letter-spacing: -1px;
+main .scroll-item h3 {
+  font-size: 1.4rem;
+  font-weight: 450;
+  letter-spacing: -1px;
 }
 
-main .scroll-item h3::first-letter{
-    font-size: 1.5rem;
+main .scroll-item h3::first-letter {
+  font-size: 1.5rem;
 }
 
 main .scroll .one {
@@ -474,96 +472,86 @@ main .scroll .ten {
   background-position: center center;
 }
 
-footer{
+footer {
   background-color: #f5f5f7;
   padding: 20px 0;
-
 }
 
-footer .deteiles .artical{
- width: 70%;
-  margin: auto; 
- border-bottom: 2px solid rgba(0, 0, 0, 0.094);
+footer .deteiles .artical {
+  width: 70%;
+  margin: auto;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.094);
 }
 
-
-footer .deteiles .artical #p{
-  color: rgba(0,0,0,.56);
+footer .deteiles .artical #p {
+  color: rgba(0, 0, 0, 0.56);
   background-color: transparent;
   margin-bottom: 1.2rem;
   font-size: 12px;
-  font-family: "poppins","Roboto",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "poppins", "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
   line-height: 16px;
-  font-weight:400 ;
+  font-weight: 400;
 }
 
-footer .links-groups{
+footer .links-groups {
   width: 70%;
   margin: auto;
-margin-top: 10vh;
- border-bottom: 2px solid rgba(0, 0, 0, 0.094);
+  margin-top: 10vh;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.094);
 }
 
-footer .links-groups .links{
-  display:grid;
-  grid-template-columns: repeat(5,1fr);
+footer .links-groups .links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 15px;
 }
 
-
-footer .links-groups .links li{
+footer .links-groups .links li {
   list-style: none;
   font-size: 13px;
   font-weight: 400;
   line-height: 2;
   color: rgba(0, 0, 0, 0.639);
 }
-footer .links-groups .links li:first-child,footer .links-groups .links li:nth-child(7){
+footer .links-groups .links li:first-child,
+footer .links-groups .links li:nth-child(7) {
   font-weight: 900;
 }
 
-footer .links-groups  p{
+footer .links-groups p {
   margin: 2rem 0;
   font-size: 13px;
   font-weight: 400;
   line-height: 2;
   color: rgba(0, 0, 0, 0.648);
 }
-footer .links-groups  p a{
-  color: #0267CC;
-  
+footer .links-groups p a {
+  color: #0267cc;
 }
 
-
 @media only screen and (max-width: 455px) {
-
   header nav .navber {
     height: 100%;
     width: 100%;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 2px;
-    background-color: #fffffff1;
-}
-  nav .navber .list .item{
+  }
+  nav .navber .list .item {
     display: none;
   }
 
-  header nav .navber li
-  main .hero .hero-section{
-      width: 100%;
-      height: 85.5vh;
-     
+  header nav .navber li main .hero .hero-section {
+    width: 100%;
+    height: 85.5vh;
   }
-  main .massages{
+  main .massages {
     width: 100%;
     transform: translateX(-10px);
   }
 
   main .hero .hero-section {
-    display: flex
-;
+    display: flex;
     width: 100%;
     height: 85.5vh;
     padding: 12vh 5vh 0 5vh;
@@ -574,181 +562,254 @@ footer .links-groups  p a{
   }
 
   main .hero .hero-section h1 {
-  font-size: 2.5rem;
-  font-family: "Roboto";
-  font-weight: 550;
-}
+    font-size: 2.5rem;
+    font-family: "Roboto";
+    font-weight: 550;
+  }
 
-main .hero .hero-section h3 {
-  font-size: 1.2rem;
-  font-weight: 400;
-  word-spacing: -02px;
-}
+  main .hero .hero-section h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    word-spacing: -02px;
+  }
 
   main .hero .hero-section .button {
-  height: 40px;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  main .hero .hero-section .button button {
+    height: 100%;
+    width: 40%;
+    font-size: 0.8rem;
+    font-weight: 450;
+    border: 1px solid #0071e3;
+    border-radius: 25px;
+    color: #0071e3;
+    transition: 0.3s;
+  }
 
-}
-main .hero .hero-section .button button {
-  height: 100%;
-  width: 40%;
-  font-size: .8rem;
-  font-weight: 450;
-  border: 1px solid #0071e3;
-  border-radius: 25px;
-  color: #0071e3;
-  transition: 0.3s;
-}
+  main .hero .hero-section p {
+    width: 100%;
+    margin: auto;
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
 
-main .hero .hero-section p{
-  width: 100%;
-  margin: auto;
-  font-size: 1.2rem;
-  margin-top: 30px;
-}
+  main .hero .hero-section .img {
+    height: 1000%;
+    width: 100%;
+    background-image: url("assets/img/potrat-iphone.jpg");
+  }
 
+  main .mac {
+    width: 100%;
+    transform: translateX(-10);
+  }
 
-main .hero .hero-section .img {
-  height: 1000%;
-  width: 100%;
-  background-image: url("assets/img/potrat-iphone.jpg");
- 
-}
+  main .mac {
+    height: 85vh;
+    background-image: url("assets/img/potrat.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+  }
 
-main .mac{
-  width: 100%;
-  transform: translateX(-10);
-}
-
-main .mac {
-  height: 85vh;
-  background-image: url("assets/img/potrat.jpg");
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-}
-
-main .mac .mac-text h1 {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-
-main .mac .mac-text h3 {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.items button,
-button {
-  margin-top: .5rem;
-  padding: 8px 8px;
-  font-size: .8rem;
-}
-
-main .mac p {
-  margin-top: 9%;
-  text-align: center;
-  font-size: .9rem;
-}
-
-/* main .last .items  */
-main .last .items{
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(6, 70vh);
-}
-
-main .last .item h1 {
-    font-size:2rem;
+  main .mac .mac-text h1 {
+    font-size: 2rem;
     font-weight: 600;
-}
+  }
 
-main .last .item h3 {
+  main .mac .mac-text h3 {
     font-size: 1rem;
-}
+    font-weight: 400;
+  }
 
-/* main last item one style  */
-main .last .items .one {
+  .items button,
+  button {
+    margin-top: 0.5rem;
+    padding: 8px 8px;
+    font-size: 0.8rem;
+  }
+
+  main .mac p {
+    margin-top: 9%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  /* main .last .items  */
+  main .last .items {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 70vh);
+  }
+
+  main .last .item h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  main .last .item h3 {
+    font-size: 1rem;
+  }
+
+  /* main last item one style  */
+  main .last .items .one {
     background-image: url(assets/img/potrat-ipad.jpg);
-}
+  }
 
+  main .last .item p {
+    width: 80%;
+    left: 10%;
+    bottom: 10%;
+    font-size: 0.9rem;
+    letter-spacing: 0px;
+  }
 
-main .last .item p {
-width: 80%;
-left: 10%;
-bottom: 10%;
-font-size: .9rem;
-letter-spacing: 0px;
-}
+  /* last item two style  */
+  main .last .items .two h1,
+  main .last .items .four h1 {
+    font-weight: 600;
+    margin-top: 75%;
+  }
 
-/* last item two style  */
-main .last .items .two h1,main .last .items .four h1{
-  font-weight: 600;
-  margin-top: 75%;
-}
+  /* main last item three  */
 
-/* main last item three  */
-
-main .last .items .three {
+  main .last .items .three {
     background-image: url(assets/img/potrat-watch.jpg);
+  }
 
-}
-
-main .last .items .three img, .five img, .six img{
+  main .last .items .three img,
+  .five img,
+  .six img {
     margin-top: 8vh;
     margin-bottom: 0vh;
     width: 7rem;
- }
+  }
 
- main .last .items .three h3, main .last .items .five h3, main .last .items .six h3 {
+  main .last .items .three h3,
+  main .last .items .five h3,
+  main .last .items .six h3 {
     width: 80%;
     font-size: 1rem;
     margin-top: 2%;
- }
+  }
 
-/* last item four style  */
-main .last .items .four h1 {
+  /* last item four style  */
+  main .last .items .four h1 {
     font-weight: 600;
     margin-top: 20rem;
-}
+  }
 
-
-main .last .items .two h3, main .last .items .four h3{
+  main .last .items .two h3,
+  main .last .items .four h3 {
     width: 85%;
- }
+  }
 
-main .scroll {
-  height: 65vh;
-  width: 100%;
+  main .scroll {
+    height: 65vh;
+    width: 100%;
+  }
+
+  main .scroll-item {
+    height: 100%;
+    width: 85%;
+    overflow: hidden;
+  }
+
+  footer .deteiles .artical {
+    width: 90%;
+  }
+
+  footer .links-groups {
+    width: 90%;
+  }
+
+  footer .links-groups .links {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-main .scroll-item{
-  height: 100%;
-  width: 85%;
-  overflow: hidden;
+@media only screen and (max-width: 780px) {
+  header nav .navber {
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 2px;
+  }
+  nav .navber .list .item {
+    display: none;
+  }
+
+  header nav .navber li main .hero .hero-section {
+    width: 100%;
+    height: 85.5vh;
+  }
+
+  main .hero .hero-section p,
+  .items .item p,
+  .mac p {
+    width: 80%;
+  }
+  main .hero .hero-section {
+    overflow-x: hidden;
+  }
+
+  main .hero .hero-section .img {
+    height: 100%;
+    width: 150%;
+    margin: 0;
+    background-position: 60% 100%;
+  }
+
+  main .mac .mac-text h1 {
+    font-size: 2.5rem;
+  }
+  main .mac .mac-text h3 {
+    font-size: 1.3rem;
+  }
+
+  main .mac p {
+    width: 100%;
+    margin-top: 17rem;
+  }
+
+  main .last .item h1 {
+    font-size: 2rem;
+  }
+
+  main .last .item h3 {
+    font-size: 1rem;
+    width: 80%;
+    margin: auto;
+  }
+
+  main .last .items .two h3,
+  main .last .items .four h3 {
+    width: 80%;
+  }
+
+  main .last .items .three h3,
+  main .last .items .five h3,
+  main .last .items .six h3 {
+    width: 80%;
+  }
+
+  main .last .items .two h1 {
+    margin-top: 18rem;
+  }
+
+  main .last .items .two h1,
+  main .last .items .four h1 {
+    font-weight: 600;
+  }
+
+  main .scroll-item {
+overflow-x: hidden;
+  }
+  
 }
-
-
-
-footer .deteiles .artical{
- width: 90%;
-}
-
-footer .links-groups{
-  width: 90%;
-}
-
-footer .links-groups .links{
-  grid-template-columns: 1fr 1fr;
-}
-
-}
-
-
-

@@ -1,0 +1,631 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Poppins";
+}
+
+body{
+  background-color: #ffffff;
+  width: 100%;
+}
+
+main {
+  position: relative;
+}
+
+/* navber style  */
+header nav {
+  height: 44px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+header nav .navber {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 14.4% 0 14.4%;
+  background-color: #fffffff1;
+}
+
+/* nav ul style  */
+
+header nav .navber ul {
+  display: flex;
+  align-items: center;
+}
+
+/* nav li style  */
+header nav .navber li {
+  list-style: none;
+  margin: 0 9.5px;
+  padding: 0 9px;
+  font-size: 12px;
+  font-weight: 380;
+  font-family: "Roboto";
+}
+
+header nav .navber li i {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 501;
+}
+
+/* hero section style  */
+
+main .hero .hero-section {
+  display: flex;
+  width: 100%;
+  height: 85.5vh;
+  padding: 12vh 12vh 0 12vh;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #f5f5f7;
+}
+
+main .hero .hero-section h1 {
+  font-size: 3.5rem;
+  font-family: "Roboto";
+  font-weight: 550;
+  color: #000;
+}
+
+main .hero .hero-section h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  word-spacing: -02px;
+}
+
+main .hero .hero-section .button {
+  height: 45px;
+  width: 285px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+main .hero .hero-section .button button {
+  height: 100%;
+  width: 48%;
+  font-size: 1rem;
+  font-weight: 450;
+  border: 1px solid #0071e3;
+  border-radius: 25px;
+  color: #0071e3;
+  transition: 0.3s;
+}
+
+main .hero .hero-section .button button:first-child {
+  background-color: #0071e3;
+  color: white;
+}
+
+main .hero .hero-section .button button:first-child:hover {
+  color: #0071e3;
+}
+
+main .hero .hero-section .button button:last-child:hover {
+  color: white;
+  background-color: #0071e3;
+}
+
+/* main p style  */
+main .hero .hero-section p,
+.items .item p, .mac p {
+  width: 20%;
+  margin: auto;
+  font-size: 1.3rem;
+  margin-top: 30px;
+  word-spacing: -1px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  background: linear-gradient(to right, #0c69b0, #9724a4, #c22903);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main .hero .hero-section .img {
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/img/heroimg.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-size: 223.5%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+main .massages {
+  background-color: #f5f5f7;
+  width: 99%;
+  height: 80vh;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fff;
+  background-image: url("assets/img/Screenshot\ 2025-08-03\ 165905.png");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+main .massages .massage button {
+  height: 50px;
+  width: 50%;
+  border-radius: 40px;
+  border: 1px solid #0071e3;
+  background-color: #fff;
+  font-size: 1.01rem;
+  color: #0071e3;
+  font-weight: 400;
+  position: absolute;
+  bottom: 55px;
+  right: 24%;
+  transition: 0.3s;
+}
+
+main .massages .massage button:hover {
+  color: white;
+  background-color: #0071e3;
+}
+
+main .mac {
+  height: 80vh;
+  width: 100%;
+  background-image: url("assets/img/hero_macbook_air_avail__fpm99qgohx2e_large.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+}
+
+main .mac .mac-text {
+  margin: 6.5vh auto;
+  text-align: center;
+}
+
+main .mac .mac-text h1 {
+  font-size: 3.5rem;
+  font-weight: 650;
+}
+main .mac .mac-text h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.items button,
+button {
+  margin-top: 1rem;
+  padding: 8px 16px;
+  border-radius: 40px;
+  border: 1px solid #0071e3;
+  color: #0071e3;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.last .button,
+.mac .button {
+  background-color: #0071e3;
+  color: white;
+}
+
+button:hover {
+  background-color: #0071e3;
+  color: wheat;
+}
+
+main .mac p {
+  width: 100%;
+  margin-top: 70%;
+  word-spacing: 1px;
+  letter-spacing: 0.1px;
+}
+
+main .last .items {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 80vh);
+  gap: 0.8rem;
+  padding: 10px;
+}
+
+main .last .items .item{
+  height: 100%;
+  width: 100%;
+}
+
+main .last .item h1 {
+  font-size: 2.35rem;
+  color: white;
+  margin: 8vh 0 0 0;
+}
+
+main .last .item h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: white;
+  letter-spacing: -0.1px;
+}
+
+main .last .item p {
+  position: absolute;
+  bottom: 8vh;
+  left: 37%;
+  width: 25%;
+  font-size: 1rem;
+  background-size: 100%;
+}
+
+main .last .items .one {
+  background-image: url("assets/img/promo_ipadpro_avail__s271j89g8kii_large.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  text-align: center;
+}
+
+main .last .items .two {
+  background-image: url("assets/img/promo_apple_intelligence_visual_intelligence__fz9rjall8kii_large.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  position: relative;
+  color: #f5f5f7;
+}
+
+main .last .items .two h1,
+main .last .items .four h1 {
+  font-weight: 700;
+  margin-top: 52%;
+}
+
+main .last .items .two h3,
+main .last .items .four h3 {
+  width: 40%;
+  font-weight: 450;
+  margin: 0 auto;
+}
+
+main .last .items .two button {
+  color: #f5f5f7;
+  border: 1px solid #f5f5f7;
+  font-weight: 300;
+  margin: 10px 0;
+}
+main .last .items .two button:hover {
+  background-color: #f5f5f7;
+  color: #000;
+}
+main .last .items .two .button {
+  background-color: #f5f5f7;
+  color: #000;
+  font-weight: 300;
+  border: 1px solid #f5f5f7;
+}
+
+main .last .items .three {
+  background-image: url("assets/img/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  position: relative;
+}
+
+main .last .items .three img,
+.five img,
+.six img {
+  margin-top: 8vh;
+  margin-bottom: 1.5vh;
+}
+
+main .last .items .three h3,
+main .last .items .five h3,
+main .last .items .six h3 {
+  color: #000;
+  width: 40%;
+  margin: auto;
+}
+
+main .last .items .four {
+  background-image: url("assets/img/promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  position: relative;
+}
+
+main .last .items .five {
+  background-image: url("assets/img/promo_iphone_tradein__bugw15ka691e_large.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  position: relative;
+}
+
+main .last .items .six {
+  background-image: url("assets/img/promo_apple_card__5cm7draujpey_large.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  position: relative;
+}
+
+main .scroll {
+  height: 85vh;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+  margin-bottom: 5vh;
+}
+
+main .scroll-item{
+  height: 100%;
+  width: 75%;
+  color: #f5f5f7;
+position: relative;
+  display: inline-flex;
+  justify-content: start;
+  align-items: end;
+  padding-bottom: 5vh;
+  margin: 10px 0 10px 10px;
+  border-radius: 10px;
+
+
+}
+
+main .scroll-item button{
+  margin: 0 2% 0 10%;
+  padding: 10px 18px;
+  background-color: #f5f5f7;
+  color: #000;
+  border: none;
+  outline: none;
+}
+main .scroll-item button:hover{
+  background-color: white;
+}
+main .scroll-item h3{
+    font-size: 1.4rem;
+    font-weight: 450;
+    letter-spacing: -1px;
+}
+
+main .scroll-item h3::first-letter{
+    font-size: 1.5rem;
+}
+
+main .scroll .one {
+  background-image: url("assets/img/img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .two {
+  background-image: url("assets/img/img2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .three {
+  background-image: url("assets/img/img3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .four {
+  background-image: url("assets/img/img4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .five {
+  background-image: url("assets/img/img5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .six {
+  background-image: url("assets/img/img6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .seven {
+  background-image: url("assets/img/img7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .eight {
+  background-image: url("assets/img/img8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .nine {
+  background-image: url("assets/img/img9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .scroll .ten {
+  background-image: url("assets/img/img10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+footer{
+  background-color: #f5f5f7;
+  padding: 20px 0;
+
+}
+
+footer .deteiles .artical{
+ width: 70%;
+  margin: auto; 
+ border-bottom: 2px solid rgba(0, 0, 0, 0.094);
+}
+
+
+footer .deteiles .artical #p{
+  color: rgba(0,0,0,.56);
+  background-color: transparent;
+  margin-bottom: 1.2rem;
+  font-size: 12px;
+  font-family: "poppins","Roboto",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 16px;
+  font-weight:400 ;
+}
+
+footer .links-groups{
+  width: 70%;
+  margin: auto;
+margin-top: 10vh;
+ border-bottom: 2px solid rgba(0, 0, 0, 0.094);
+}
+
+footer .links-groups .links{
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 15px;
+}
+
+
+footer .links-groups .links li{
+  list-style: none;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.639);
+}
+footer .links-groups .links li:first-child,footer .links-groups .links li:nth-child(7){
+  font-weight: 900;
+}
+
+footer .links-groups  p{
+  margin: 2rem 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.648);
+}
+footer .links-groups  p a{
+  color: #0267CC;
+  
+}
+
+
+@media only screen and (max-width: 455px) {
+  nav .navber .list .item{
+    display: none;
+  }
+  body{
+    background-color: red;
+  }
+
+  main .hero .hero-section .button {
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+main .hero .hero-section .button button {
+  height: 100%;
+  width: 100%;
+  font-size: .8rem;
+  font-weight: 450;
+  border: 1px solid #0071e3;
+  border-radius: 25px;
+  color: #0071e3;
+  transition: 0.3s;
+}
+
+
+
+main .hero .hero-section{
+    display: flex;
+    width: 100%;
+    height: 85.5vh;
+    padding: 12vh 2vh 0 2vh;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #f5f5f7;
+}
+main .massages{
+  width: 100%;
+  transform: translateX(-10px);
+}
+
+main .mac{
+  width: 100%;
+  transform: translateX(-10);
+}
+
+main .last .items{
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, 70vh);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .links-groups .links{
+  grid-template-columns: 1fr 1fr;
+}
+
+
+}
+
+

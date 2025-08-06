@@ -108,8 +108,8 @@ main .hero .hero-section .button button:first-child {
   color: white;
 }
 
-main .hero .hero-section .button button:first-child:hover {
-  color: #0071e3;
+main .hero .hero-section .button .fist-btn:hover {
+  color: #edf0f3;
 }
 
 main .hero .hero-section .button button:last-child:hover {
@@ -809,7 +809,6 @@ footer .links-groups p a {
   }
 
   main .scroll-item {
-overflow-x: hidden;
+    overflow-x: hidden;
   }
-  
 }
